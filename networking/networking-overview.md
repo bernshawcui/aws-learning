@@ -5,6 +5,9 @@
     - [Overview](#overview)
     - [IPv4](#ipv4)
     - [Private vs Public IP (IPv4)](#private-vs-public-ip-ipv4)
+      - [Public IP](#public-ip)
+      - [Private IP](#private-ip)
+      - [Private and Public IP Address Range](#private-and-public-ip-address-range)
 
 
 <img src="assets/vpc-components-diagram.png" alt="VPC Components Overview" width="1500"/>
@@ -33,9 +36,24 @@
   |192.168.0.0/8|2<sup>24</sup> = 	16,777,216 |192.168.0.0 - 192.255.255.255|
 
 ### Private vs Public IP (IPv4)
+#### Public IP
+- Unique globally
+- Over 4 billion IPv4 addresses
+- Not enough today because the size of internet was underestimated
+- Assigned by Internet Service Provider (ISP)
+
+#### Private IP
+- Solves the issue of insufficient public IP
+- Assgined by router/Dynamic Host Configuration Protocol (DHCP)
+- Not registered on the internet/cannot access the internet
+- Must be translated into public IP to access the internet
+- Network Address Transaltion (NAT) is used to translate private to public and public to private IP addresses
+<img src="assets/private-ip-internet-access.png" alt="Private IP to Public IP" width="500"/>
+
+#### Private and Public IP Address Range
 - The Internet Assigned Numbers Authority (IANA) sets the public & private blocks of IPv4 addresses
 - Private IPs:
   - **Class A**: 10.0.0.0 to 10.255.255.255 (10.0.0.0/8, for large networks)
   - **Class B**: 172.16.0.0 to 172.31.255.255 (for medium networks, AWS default VPC is in this range)
   - **Class C**: 192.168.0.0 to 192.168.255.255 (for small networks liek home network)
-- Public IPs: all remaining
+- Public IPs: all the remaining IPs
