@@ -14,6 +14,8 @@
   - [Bastion Host](#bastion-host)
   - [NAT Instance](#nat-instance)
   - [NAT Gateway](#nat-gateway)
+    - [Network Control Access List (NACL)](#network-control-access-list-nacl)
+      - [Ephemeral Ports](#ephemeral-ports)
 
 
 <img src="assets/vpc-components-diagram.png" alt="VPC Components Overview" width="1500"/>
@@ -56,7 +58,7 @@
 - Not registered on the internet/cannot access the internet
 - Must be translated into public IP to access the internet
 - Network Address Transaltion (NAT) is used to translate private to public and public to private IP addresses
-- 
+
 <img src="assets/private-ip-internet-access.png" alt="Private IP to Public IP" width="500"/>
 
 #### Private and Public IP Address Range
@@ -125,3 +127,32 @@
 - **EC2 in a private subnet can connect to services outside VPC but external services cannot initiate a connection with those instances**
 
 <img src="assets/nat-gateway-overview.png" width="600">
+
+
+### Network Control Access List (NACL)
+<img src="assets/nacl-overview.png" width="800">
+
+- Security Group is **stateful**, NACL is **stateless**
+- NACLs are like firewall, controls traffic to-and-fro from subnets (1 NACL per subnet)
+- Rules (1 - 32766) with higher precedence with lower number
+- First match (Not like IAM where deny takes precedence)
+- Recommended to increment rules by 100
+- Great for controlling traffic at **subnet level**
+- Default NACL acceps everything inbound/outbound
+
+<img src="assets/nacl-big-picture.png" width="600">
+
+
+#### Ephemeral Ports
+<img src="assets/ephemeral-port.png" width="500">
+
+- For any 2 endpoints to establish a connection, **ports** must be used
+- Client connect to a defined port, and expect a response onan ephemeral port
+- Random port assigned just to establish connection
+- Examples:
+  - IANA & Windows 10: 49152 - 65535
+  - Many Linux Kernels: 32768 - 60999
+
+
+<img src="assets/ephemeral-port-eg.png" width="800">
+<img src="assets/multiple-nacl.png" width="800">
