@@ -9,7 +9,11 @@
       - [Private IP](#private-ip)
       - [Private and Public IP Address Range](#private-and-public-ip-address-range)
   - [Virtual Private Cloud (VPC) \& Subnet](#virtual-private-cloud-vpc--subnet)
+    - [VPC CIDR vs Subnet CIDR](#vpc-cidr-vs-subnet-cidr)
   - [Internet Gateway (IGW)](#internet-gateway-igw)
+  - [Bastion Host](#bastion-host)
+  - [NAT Instance](#nat-instance)
+  - [NAT Gateway](#nat-gateway)
 
 
 <img src="assets/vpc-components-diagram.png" alt="VPC Components Overview" width="1500"/>
@@ -77,6 +81,13 @@
   - 10.0.0.255 - Network Broadcast Address
 - Generally, public subnet doesn't need as many IP addresses as private subnet
 
+### VPC CIDR vs Subnet CIDR
+- CIDR is a way of  **allocating** IP address range
+- Therefore, the CIDR of subnet must be within the range of it's VPC
+- Each subnet should have different CIDR range
+
+<img src="assets/vpc-subnet-cidr.png" width="500">
+
 
 ## Internet Gateway (IGW)
 - Allows resources in a VPC to connect to the internet
@@ -84,4 +95,33 @@
 - Only 1 IGW for 1 VPC
 - Must be defined together with route tables for internet access
 
-<img src="assets/igw-route-table.png" width="800"/>
+<img src="assets/igw-route-table.png" width="500"/>
+
+
+## Bastion Host
+- Using IGW, an EC2 can access internet from a public subnet. What about private subnet?
+- A secure way of accessing EC2 in private subnets without internet access
+- The EC2's security group only allows for traffic from the bastion host EC2 via private IP
+
+<img src="assets/basation-host-overview.png" width="300">
+
+
+## NAT Instance
+- Using Bastion Host, we can access private EC2 but it still cannot access the internet
+- NAT = Network Address Translation
+- It is an EC2 in public subnet with internet access
+- The private EC2 access the internet via the NAT instance
+- The NAT instance translates the source and destination IP address, hence must have Elastic IP attached and disabled "Source/destination check"
+- Route tables must be configured to route traffic from private subnets to the NAT instance
+
+<img src="assets/nat-instance-overview.png" width="300">
+
+
+## NAT Gateway
+- Managed version of NAT instance
+- Highly available within AZ (create in another AZ for cross-AZ HA)
+- Cost charged by hour & amount of data transferred
+- It uses an Elastic IP, must work together with an IGW
+- **EC2 in a private subnet can connect to services outside VPC but external services cannot initiate a connection with those instances**
+
+<img src="assets/nat-gateway-overview.png" width="600">
