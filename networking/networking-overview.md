@@ -8,6 +8,8 @@
       - [Public IP](#public-ip)
       - [Private IP](#private-ip)
       - [Private and Public IP Address Range](#private-and-public-ip-address-range)
+  - [Virtual Private Cloud (VPC) \& Subnet](#virtual-private-cloud-vpc--subnet)
+  - [Internet Gateway (IGW)](#internet-gateway-igw)
 
 
 <img src="assets/vpc-components-diagram.png" alt="VPC Components Overview" width="1500"/>
@@ -31,9 +33,11 @@
   |192.168.0.0/32|2<sup>0</sup> = 1 |192.168.0.0|
   |192.168.0.0/31|2<sup>1</sup> = 2 |192.168.0.0 - 192.168.0.1|
   |192.168.0.0/30|2<sup>2</sup> = 4 |192.168.0.0 - 192.168.0.3|
+  |192.168.0.0/28|2<sup>4</sup> = 16 |192.168.0.0 - 192.168.0.15|
   |192.168.0.0/24|2<sup>8</sup> = 256 |192.168.0.0 - 192.168.0.255|
   |192.168.0.0/16|2<sup>16</sup> = 65,536 |192.168.0.0 - 192.168.255.255|
   |192.168.0.0/8|2<sup>24</sup> = 	16,777,216 |192.168.0.0 - 192.255.255.255|
+- Use https://www.ipaddressguide.com/cidr.aspx to calculate
 
 ### Private vs Public IP (IPv4)
 #### Public IP
@@ -48,6 +52,7 @@
 - Not registered on the internet/cannot access the internet
 - Must be translated into public IP to access the internet
 - Network Address Transaltion (NAT) is used to translate private to public and public to private IP addresses
+- 
 <img src="assets/private-ip-internet-access.png" alt="Private IP to Public IP" width="500"/>
 
 #### Private and Public IP Address Range
@@ -57,3 +62,26 @@
   - **Class B**: 172.16.0.0 to 172.31.255.255 (for medium networks, AWS default VPC is in this range)
   - **Class C**: 192.168.0.0 to 192.168.255.255 (for small networks liek home network)
 - Public IPs: all the remaining IPs
+
+
+## Virtual Private Cloud (VPC) & Subnet
+- Max 5 VPCs per region (soft limit)
+- Max 5 CIDR per VPC (min /28, max /16)
+- VPC CIDR should <ins>**NOT**</ins> overlap with other VPC/networks
+  - if the VPCs/network were to connect together, CIDR cannot overlap
+- AWS reserves **5 IP addresses** in each subnet (first 4 and last 1) which cannot be used. Using 10.0.0.0/24 as e.g:
+  - 10.0.0.0 - Network Address
+  - 10.0.0.1 - reserved for VPC router
+  - 10.0.0.2 - reserved for mapping to Amazon-provided DNS
+  - 10.0.0.3 - reserved for future use
+  - 10.0.0.255 - Network Broadcast Address
+- Generally, public subnet doesn't need as many IP addresses as private subnet
+
+
+## Internet Gateway (IGW)
+- Allows resources in a VPC to connect to the internet
+- Scales horizontally & highly redundant
+- Only 1 IGW for 1 VPC
+- Must be defined together with route tables for internet access
+
+<img src="assets/igw-route-table.png" width="800"/>
