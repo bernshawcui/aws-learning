@@ -226,7 +226,11 @@ VPC Flow Log Syntax
 ### How does VPN Work?
 <img src="assets/how-does-vpn-work.png" width="500">
 
-- A VPN
+- VPN acts as tunnel which data travels through from source to destination
+- It is encrypted such that outside cannot see the data inside the tunnel
+- Data from client side is encrypted, then passes throught the VPN tunnel which others cannot access
+- Before data goes into the VPN tunnel, data is first sent to ISP; however, because the data is encrypted, ISP cannot figure out what it's trying to access
+- ISP forwards the request to VPN server, which then sends the request to the desired IP address
 
 ### AWS VPN
 - Virtual Private Gateway (VGW)
