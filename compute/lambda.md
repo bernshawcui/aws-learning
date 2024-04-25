@@ -34,6 +34,28 @@
 **Disadvantages**:
 - Loses low level control and visibility over infrastructure
 - Lambda cold starts (no active lambda containers to handle requests) [Strategies to minimize cold starts](#strategies-to-minimize-cold-starts)
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+### <ins>**Lambda concepts**</ins>
+
+1. <ins>Function:</ins> Lambda runs instances of your function to process events (from scratch, blueprint, or container image)
+
+2. <ins>Trigger:</ins> Integrates Lambda function with other AWS services and event source mappings so that function runs in response to certain API calls or by reading items from a stream or queue
+
+3. <ins>Event:</ins> JSON-formatted document that contains data for a Lambda function to process.
+
+4. <ins>Deployment Package:</ins> Methods to deploy function code (zip file archive or container image)
+
+5. <ins>Runtime:</ins> Provides a language-specific environment that runs in an application environment
+
+6. <ins>Lambda Function Handler:</ins> Method in your function code that processes events
+
+7. <ins>Application Environment:</ins> Manages the processes and resources that are required to run the function
+
+
+
+
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### <ins>**Lambda Function Execution**</ins>
