@@ -6,7 +6,9 @@
 
 ### Notes:
 
-- 
+- Amazon EFS (Elastic File System) provides a shared, elastic file storage that can be accessed by multiple EC2 instances simultaneously. 
+
+- All EC2 instances will have access to the same set of documents, ensuring that users see all their documents regardless of which instance they are routed to by the load balancer
 
 
 
@@ -82,7 +84,9 @@
 
 ### Notes:
 
-- 
+- CloudFront can cache static content from the S3 bucket at edge locations, reducing latency for static data.
+
+- For dynamic content, CloudFront can route requests to the ALB, which then forwards them to the EC2 instances.
 
 
 
@@ -120,7 +124,7 @@
 
 ### Notes:
 
-- 
+- Gateway Load Balancer (GWLB) is specifically designed for integrating third-party virtual appliances, such as firewalls, into your VPC architecture.
 
 
 
@@ -158,8 +162,7 @@
 
 ### Notes:
 
-- 
-
+- Fast Snapshot Restore: This feature significantly reduces the time needed to create volumes from snapshots, which addresses the requirement to minimize the time required for cloning.
 
 
 
@@ -560,7 +563,9 @@
 
 ### Notes:
 
-- 
+- Direct Connect provides a dedicated, private network connection from on-premises to AWS, offering consistent low latency.
+
+- Backup solution: The VPN connection serves as a backup if the primary Direct Connect fails. This meets the requirement of accepting slower traffic in case of primary connection failure.
 
 
 
