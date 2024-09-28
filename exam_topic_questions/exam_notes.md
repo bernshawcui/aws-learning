@@ -40,6 +40,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 6.png
 
 <img src="6.png" alt="Question" width="800">
@@ -47,6 +64,23 @@
 ### Notes:
 
 - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -118,6 +152,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 19.png
 
 <img src="19.png" alt="Question" width="800">
@@ -156,6 +207,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 20.png
 
 <img src="20.png" alt="Question" width="800">
@@ -163,6 +231,23 @@
 ### Notes:
 
 - Fast Snapshot Restore: This feature significantly reduces the time needed to create volumes from snapshots, which addresses the requirement to minimize the time required for cloning.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -232,6 +317,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 25.jpeg
 
 <img src="25.jpeg" alt="Question" width="800">
@@ -239,6 +341,23 @@
 ### Notes:
 
 - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -277,6 +396,23 @@
 
 - https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch-dashboard-sharing.html  
 - Share a single dashboard and designate specific email addresses of the people who can view the dashboard. Each of these users creates their own password that they must enter to view the dashboard.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -348,6 +484,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 30.png
 
 <img src="30.png" alt="Question" width="800">
@@ -355,6 +508,23 @@
 ### Notes:
 
 - Still pay for storage when an RDS database is stopped -> Not A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -421,6 +591,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 41.png
 
 <img src="41.png" alt="Question" width="800">
@@ -428,6 +615,23 @@
 ### Notes:
 
 - Amazon AppFlow is a fully managed integration service that helps you securely transfer data between software as a service (SaaS) applications such as Salesforce, SAP, Google Analytics, Facebook Ads, and ServiceNow, and AWS services such as Amazon Simple Storage Service (S3) and Amazon Redshift in just a few clicks. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -490,6 +694,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 60.png
 
 <img src="60.png" alt="Question" width="800">
@@ -499,6 +720,23 @@
 - ALB listener rules allow you to redirect traffic from one listener port (e.g. 80 for HTTP) to another (e.g. 443 for HTTPS). This achieves the goal to forward all requests over HTTPS.
 - Network ACLs control traffic at the subnet level and cannot distinguish between HTTP and HTTPS requests to implement a redirect (option A incorrect). 
 - Replacing HTTP with HTTPS in the URL happens at the client side. It does not redirect at the ALB (option B incorrect).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -557,6 +795,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 68.png
 
 <img src="68.png" alt="Question" width="800">
@@ -566,6 +821,23 @@
 - Direct Connect provides a dedicated, private network connection from on-premises to AWS, offering consistent low latency.
 
 - Backup solution: The VPN connection serves as a backup if the primary Direct Connect fails. This meets the requirement of accepting slower traffic in case of primary connection failure.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -619,6 +891,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 76.png
 
 <img src="76.png" alt="Question" width="800">
@@ -626,6 +915,23 @@
 ### Notes:
 
 - DMS is for databases, while the question refers to JSON files
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -674,13 +980,47 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 83.png
 
 <img src="83.png" alt="Question" width="800">
 
 ### Notes:
 
-- 
+- Keeps backend in the US: CloudFront can use the existing on-premises servers in the United States as the origin, satisfying the requirement that the site's backend must remain in the US.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -738,6 +1078,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 95.png
 
 <img src="95.png" alt="Question" width="800">
@@ -745,6 +1102,23 @@
 ### Notes:
 
 - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -816,6 +1190,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 101.png
 
 <img src="101.png" alt="Question" width="800">
@@ -825,6 +1216,23 @@
 - NAT gateways allow private instances to initiate outbound traffic to the Internet but do not allow inbound traffic from the Internet to reach the private instances.
 - NAT gateways must be created in public subnets
 - NAT gateways are availability zone specific, if you need HA you will need a NAT gateway in each availability zone.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -893,6 +1301,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 107.png
 
 <img src="107.png" alt="Question" width="800">
@@ -900,6 +1325,23 @@
 ### Notes:
 
 - Integration with analytics: Lambda functions can be designed to store the data in a format that's easily consumable by the company's existing analytics platform.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -972,6 +1414,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 109.png
 
 <img src="109.png" alt="Question" width="800">
@@ -999,6 +1458,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 117.png
 
 <img src="117.png" alt="Question" width="800">
@@ -1006,6 +1482,23 @@
 ### Notes:
 
 - You can configure a CloudWatch Logs log group to stream data it receives to your Amazon OpenSearch Service cluster in NEAR REAL-TIME through a CloudWatch Logs subscription
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1075,6 +1568,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 120.png
 
 <img src="120.png" alt="Question" width="800">
@@ -1082,6 +1592,23 @@
 ### Notes:
 
 - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1139,6 +1666,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 124.png
 
 <img src="124.png" alt="Question" width="800">
@@ -1146,6 +1690,23 @@
 ### Notes:
 
 - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1216,6 +1777,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 127.png
 
 <img src="127.png" alt="Question" width="800">
@@ -1223,6 +1801,23 @@
 ### Notes:
 
 - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1248,6 +1843,23 @@
 - Containers: The company wants to run applications in containers, which EKS supports natively.
 - Stateless applications: The applications are stateless and can tolerate disruptions, making them ideal candidates for Spot Instances.
 - Spot Instances offer significant cost savings compared to On-Demand Instances, often up to 90% cheaper.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1316,6 +1928,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 132.png
 
 <img src="132.png" alt="Question" width="800">
@@ -1323,6 +1952,23 @@
 ### Notes:
 
 - Historical reports imply static content
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1359,6 +2005,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 134.png
 
 <img src="134.png" alt="Question" width="800">
@@ -1368,6 +2031,23 @@
 - Server-side encryption with SSE-S3: This provides encryption with the least operational overhead. SSE-S3 is fully managed by AWS, requiring no key management from the user.
 
 - Amazon Athena: This is a serverless query service that can directly analyze data in S3, which aligns with the company's desire for a serverless solution and the need to analyze data using SQL.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1401,6 +2081,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 138.jpeg
 
 <img src="138.jpeg" alt="Question" width="800">
@@ -1408,6 +2105,23 @@
 ### Notes:
 
 - Migrating to Amazon MQ reduces the overhead on the queue management. Amazon MQ provides a managed, highly available RabbitMQ cluster
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1455,6 +2169,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 140.png
 
 <img src="140.png" alt="Question" width="800">
@@ -1462,6 +2193,23 @@
 ### Notes:
 
 - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1531,6 +2279,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 142.png
 
 <img src="142.png" alt="Question" width="800">
@@ -1557,6 +2322,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 145.png
 
 <img src="145.png" alt="Question" width="800">
@@ -1568,6 +2350,23 @@
 - Database Migration: Moving the database to Amazon Aurora MySQL provides better performance and scalability compared to a single EC2 instance running MySQL.
 
 - Spot Fleet: Using Spot Instances in the Auto Scaling group can significantly reduce costs compared to On-Demand Instances, making this the most cost-effective option.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1637,6 +2436,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 152.png
 
 <img src="152.png" alt="Question" width="800">
@@ -1644,6 +2460,23 @@
 ### Notes:
 
 - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1662,6 +2495,23 @@
 - Governance mode: Only users with special permissions can overwrite, delete, or alter object lock settings
 
 - Compliance mode: No user, including the root user in an AWS account, can overwrite, delete, or alter object lock settings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1708,6 +2558,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 158.jpeg
 
 <img src="158.jpeg" alt="Question" width="800">
@@ -1722,6 +2589,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 165.jpeg
 
 <img src="165.jpeg" alt="Question" width="800">
@@ -1729,6 +2613,23 @@
 ### Notes:
 
 - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1797,6 +2698,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 172.png
 
 <img src="172.png" alt="Question" width="800">
@@ -1804,6 +2722,23 @@
 ### Notes:
 
 - With Amazon CloudFront, you can enforce secure end-to-end connections to origin servers by using HTTPS. Field-level encryption adds an additional layer of security that lets you protect specific data throughout system processing so that only certain applications can see it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1875,6 +2810,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 178.png
 
 <img src="178.png" alt="Question" width="800">
@@ -1882,6 +2834,23 @@
 ### Notes:
 
 - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1952,6 +2921,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 184.jpeg
 
 <img src="184.jpeg" alt="Question" width="800">
@@ -1967,6 +2953,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 188.jpeg
 
 <img src="188.jpeg" alt="Question" width="800">
@@ -1974,6 +2977,23 @@
 ### Notes:
 
 - SFTP support: AWS Transfer Family natively supports SFTP, which is the required protocol for the new partner.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2042,6 +3062,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 193.png
 
 <img src="193.png" alt="Question" width="800">
@@ -2056,6 +3093,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 194.png
 
 <img src="194.png" alt="Question" width="800">
@@ -2065,6 +3119,23 @@
 - C: While this provides high availability across regions, it's typically more complex and expensive than necessary. Cross-region replication often has higher latency and doesn't provide automatic failover without additional configuration.
 
 - Automatic Failover: Configuring the EC2 instances as a cluster with database replication allows for automatic failover if one instance or AZ experiences issues.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2134,6 +3205,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 201.png
 
 <img src="201.png" alt="Question" width="800">
@@ -2141,6 +3229,23 @@
 ### Notes:
 
 - SMS Messaging: Amazon Pinpoint is designed for customer engagement and supports sending SMS messages at scale. It's ideal for marketing communications and can handle both outbound and inbound SMS.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2155,6 +3260,23 @@
 - Server-side encryption: SSE-S3 provides automatic encryption of data at rest in S3 buckets.
 
 - Automatic key rotation: With SSE-S3, AWS automatically handles key management and rotation. The keys are rotated on a regular basis, which meets the requirement of annual key rotation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2224,6 +3346,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 208.png
 
 <img src="208.png" alt="Question" width="800">
@@ -2258,6 +3397,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 213.png
 
 <img src="213.png" alt="Question" width="800">
@@ -2265,6 +3421,23 @@
 ### Notes:
 
 - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2336,6 +3509,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 217.png
 
 <img src="217.png" alt="Question" width="800">
@@ -2347,6 +3537,23 @@
 - Minimizing potential data loss (Aurora Replica)
 
 - Not requiring the solution to handle the full load during normal operations (active-passive setup)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2420,6 +3627,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 222.png
 
 <img src="222.png" alt="Question" width="800">
@@ -2433,6 +3657,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 224.png
 
 <img src="224.png" alt="Question" width="800">
@@ -2442,6 +3683,23 @@
 - Multivalue answer routing allows you to configure Amazon Route 53 to return multiple values, such as IP addresses for your web servers, in response to DNS queries.
 
 - Having two instances in each AZ ensures that the application can handle the load even if one instance or an entire AZ fails.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2509,6 +3767,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 226.png
 
 <img src="226.png" alt="Question" width="800">
@@ -2516,6 +3791,23 @@
 ### Notes:
 
 - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2559,6 +3851,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 237.png
 
 <img src="237.png" alt="Question" width="800">
@@ -2566,6 +3875,23 @@
 ### Notes:
 
 - You can create a VPC peering connection between your own VPCs, or with a VPC in another AWS account. Peering within the same AZ is free of charge.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Question: 239.png
 
@@ -2634,4 +3960,333 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Question: 402.png
+
+<img src="402.png" alt="Question" width="800">
+
+### Notes:
+
+- By default, Kinesis Data Streams has a data retention period of 24 hours. This means that if data is not consumed within 24 hours, it will be lost.
+
+- Since the application is only consuming data every 48 hours (every other day), some data is likely being lost before it can be processed and written to S3.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Question: 414.png
+
+<img src="414.png" alt="Question" width="800">
+
+### Notes:
+
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Question: 417.png
+
+<img src="417.png" alt="Question" width="800">
+
+### Notes:
+
+- Compute Savings Plan is more flexible than an EC2 Instance Savings Plan, as it covers both EC2 and Lambda usage.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Question: 420.png
+
+<img src="420.png" alt="Question" width="800">
+
+### Notes:
+
+- Multi-AZ DB instance deployments don't provide readable standby instances. The secondary instance in a Multi-AZ pair is not accessible for reads during normal operations.
+
+- Multi-AZ DB clusters come with up to two readable standby instances in addition to the writer instance. The reader endpoint automatically load-balances connections across all available read replicas, effectively offloading reads from the primary instance.
+
+- By using the built-in read replicas in a Multi-AZ DB cluster, the company can offload reads without the need to create and manage separate read replicas, which would incur additional costs.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Question: 426.png
+
+<img src="426.png" alt="Question" width="800">
+
+### Notes:
+
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Question: 427.png
+
+<img src="427.png" alt="Question" width="800">
+
+### Notes:
+
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Question: 430.png
+
+<img src="430.png" alt="Question" width="800">
+
+### Notes:
+
+-  Glacier is the most cost-effective option, and plans for using .csv files are known weeks in advance.
+
+
+
+
+
+
+
+
+
+
+
+
+## Question: 431.png
+
+<img src="431.png" alt="Question" width="800">
+
+### Notes:
+
+- Redis can handle high concurrency and is designed for fast read and write operations, which is crucial for a multiplayer online game.
+
+- Redis supports persistence, allowing you to save the state of the data. This meets the requirement of being able to stop and restore the game while preserving current scores.
+
+
+
+
+
+
+
+
+
+## Question: 434.png
+
+<img src="434.png" alt="Question" width="800">
+
+### Notes:
+
+- DynamoDB global tables provide automatic, multi-region replication. This ensures that the data is already present and up-to-date in the disaster recovery region, eliminating data transfer time during failover.
+
+- Auto Scaling group and load balancer in the disaster recovery Region: This ensures that the EC2 infrastructure is already set up and ready to handle traffic in the disaster recovery region.
+
+
+
+
+
+
+
+
+
+
+## Question: 440.png
+
+<img src="440.png" alt="Question" width="800">
+
+### Notes:
+
+- Aurora is compatible with MySQL, and AWS provides a direct migration path from RDS MySQL snapshots to Aurora.
+
+- The mysqldump utility creates a logical backup of the database. Aurora supports importing data from S3, including mysqldump files.
+
+
+
+
+
+
+
+## Question: 443.png
+
+<img src="443.png" alt="Question" width="800">
+
+### Notes:
+
+- 
+
+
+
+
+
+
+
+
+## Question: 447.png
+
+<img src="447.png" alt="Question" width="800">
+
+### Notes:
+
+- Application Load Balancer is regional, not global. It can't route traffic across multiple Regions, which is a key requirement for this scenario.
+
+- Route 53 is a global service that can route traffic across multiple AWS Regions
+
+- Route 53 health checks can monitor the availability of the application in each Region. This ensures that traffic is only routed to healthy endpoints.
+
+- Active-Active Failover: This configuration allows traffic to be distributed across all healthy endpoints. If one Region fails, Route 53 will automatically route all traffic to the remaining healthy Regions.
+
+
+
+
+
+
+
+## Question: 448.png
+
+<img src="448.png" alt="Question" width="800">
+
+### Notes:
+
+- Currently, there's only one VPN connection through a single customer gateway device. This is a single point of failure.
+Adding a second set of VPNs from a second customer gateway device provides redundancy for the connection between the Management VPC and the data center.
+
+- The VPC peering connection between Management and Production VPCs is already highly available by design. AWS manages the underlying infrastructure for VPC peering, so adding a second peering connection (option D) wouldn't provide additional redundancy.
+
+
+
+
+
+
+
+## Question: 450.jpeg
+
+<img src="450.jpeg" alt="Question" width="800">
+
+### Notes:
+
+- 
+
+
+
+
+
+## Question: 452.png
+
+<img src="452.png" alt="Question" width="800">
+
+### Notes:
+
+- The 1 GB memory requirement fits within Lambda's capabilities.
+
+- The minimum billable duration for Fargate tasks is 1 minute, which is more than the 10-second job duration.
+
+
+
+
+## Question: 454.png
+
+<img src="454.png" alt="Question" width="800">
+
+### Notes:
+
+- Workload Discovery on AWS not only lists resources but also maps the relationships between them, which is a key requirement mentioned in the question.
+
+
+
+## Question: 455.jpeg
+
+<img src="455.jpeg" alt="Question" width="800">
+
+### Notes:
+
+- Budgets are created and managed through the Billing dashboard, not the Cost and Usage Reports section.
+
+- Cost and Usage Reports is not where budgets are set up.
 
