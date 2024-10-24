@@ -28,6 +28,9 @@ Notes:
 
 
 
+
+
+
 ## Question: 2.png
 
 <img src="2.png" alt="Question" width="800">
@@ -42,6 +45,9 @@ Notes:
 - 
 
 </details>
+
+
+
 
 
 
@@ -83,6 +89,9 @@ Notes:
 
 
 
+
+
+
 ## Question: 4.png
 
 <img src="4.png" alt="Question" width="800">
@@ -97,6 +106,9 @@ Notes:
 - WAF helps with layer 7 attacks like SQL injection and Cross-Site Scripting. Shield is helpful for DDOS attacks.
 
 </details>
+
+
+
 
 
 
@@ -132,6 +144,9 @@ Notes:
 
 
 
+
+
+
 ## Question: 6.jpeg
 
 <img src="6.jpeg" alt="Question" width="800">
@@ -146,6 +161,9 @@ Notes:
 - 
 
 </details>
+
+
+
 
 
 
@@ -177,6 +195,9 @@ Notes:
 
 
 
+
+
+
 ## Question: 8.png
 
 <img src="8.png" alt="Question" width="800">
@@ -192,6 +213,9 @@ Notes:
 - 
 
 </details>
+
+
+
 
 
 
@@ -220,6 +244,9 @@ Notes:
 
 
 
+
+
+
 ## Question: 10.png
 
 <img src="10.png" alt="Question" width="800">
@@ -234,6 +261,9 @@ Notes:
 - 
 
 </details>
+
+
+
 
 
 
@@ -256,6 +286,9 @@ Notes:
 
 
 
+
+
+
 ## Question: 12.png
 
 <img src="12.png" alt="Question" width="800">
@@ -268,6 +301,60 @@ Notes:
 Notes:
 
 - IAM roles are not directly attached to IAM groups.
+
+</details>
+
+
+
+
+
+## Question: 13.png
+
+<img src="13.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Configure an Amazon API Gateway endpoint in front of an Amazon Kinesis Data Firehose that stores the information that the company receives in an Amazon S3 bucket. Use an API Gateway Lambda authorizer to resolve authorization
+
+Notes:
+
+- 
+
+</details>
+
+
+
+
+## Question: 14.png
+
+<img src="14.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Create a predictive scaling policy for the Auto Scaling group. Configure the policy to scale based on forecast. Set the scaling metric to CPU utilization. Set the target value for the metric to 60%. In the policy, set the instances to pre-launch 30 minutes before the jobs run.
+
+Notes:
+
+- 
+
+</details>
+
+
+
+## Question: 15.jpeg
+
+<img src="15.jpeg" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Create an Amazon S3 File Gateway.Update the business system to use a new network share from the S3 File Gateway
+
+Notes:
+
+- 
 
 </details>
 
