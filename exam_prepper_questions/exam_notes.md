@@ -22,6 +22,12 @@ Notes:
 
 
 
+
+
+
+
+
+
 ## Question: 2.png
 
 <img src="2.png" alt="Question" width="800">
@@ -36,6 +42,12 @@ Notes:
 - 
 
 </details>
+
+
+
+
+
+
 
 
 
@@ -65,6 +77,12 @@ Notes:
 
 
 
+
+
+
+
+
+
 ## Question: 4.png
 
 <img src="4.png" alt="Question" width="800">
@@ -79,6 +97,12 @@ Notes:
 - WAF helps with layer 7 attacks like SQL injection and Cross-Site Scripting. Shield is helpful for DDOS attacks.
 
 </details>
+
+
+
+
+
+
 
 
 
@@ -102,6 +126,12 @@ Notes:
 
 
 
+
+
+
+
+
+
 ## Question: 6.jpeg
 
 <img src="6.jpeg" alt="Question" width="800">
@@ -114,6 +144,130 @@ Notes:
 Notes:
 
 - 
+
+</details>
+
+
+
+
+
+
+
+
+## Question: 7.png
+
+<img src="7.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Configure an Amazon SNS dead letter queue that has an Amazon Simple Queue Service (Amazon SQS) target with a retention period of 14 days
+
+Notes:
+
+- A dead-letter queue is an Amazon SQS queue that an Amazon SNS subscription can target for messages that can't be delivered to subscribers successfully
+
+- The goal is to retain undeliverable messages for analysis (NOT to deliver them), and this is typically achieved with a dead letter queue.
+
+</details>
+
+
+
+
+
+
+
+## Question: 8.png
+
+<img src="8.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- 3. Turn on the sticky sessions feature (session affinity on the ALB)
+- 5. Deploy an Amazon ElastiCache for Redis cluster to store customer session information
+
+Notes:
+
+- 
+
+</details>
+
+
+
+
+
+
+## Question: 9.jpeg
+
+<img src="9.jpeg" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Configure a warm standby Amazon RDS for SQL Server database on AWS. Configure AWS Database Migration Service (AWS DMS) to use change data capture (CDC)
+
+Notes:
+
+- Backup & Restore (RPO in hours, RTO in 24 hours or less)
+- Pilot Light (RPO in minutes, RTO in hours)
+- Warm Standby (RPO in seconds, RTO in minutes) *** Right Answer ***
+- Active-Active (RPO is none or possibly seconds, RTO in seconds)
+
+</details>
+
+
+
+
+
+## Question: 10.png
+
+<img src="10.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Use a Multi-AZ deployment of an Amazon RDS for MySQL DB instance with a General Purpose SSD (gp2) EBS volume
+
+Notes:
+
+- 
+
+</details>
+
+
+
+
+## Question: 11.jpeg
+
+<img src="11.jpeg" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Update the Amazon Cognito identity pool to assume the proper IAM role for access to the protected content
+
+Notes:
+
+- Amazon Cognito identity pools are designed to work with IAM roles. When a user authenticates, the identity pool can assume an IAM role on behalf of the user, granting them the permissions associated with that role.
+
+
+</details>
+
+
+
+## Question: 12.png
+
+<img src="12.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Create an IAM policy that grants least privilege permission. Attach the policy to the IAM groups
+
+Notes:
+
+- IAM roles are not directly attached to IAM groups.
 
 </details>
 
