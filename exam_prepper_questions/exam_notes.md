@@ -31,6 +31,8 @@ Notes:
 
 
 
+
+
 ## Question: 2.png
 
 <img src="2.png" alt="Question" width="800">
@@ -45,6 +47,8 @@ Notes:
 - 
 
 </details>
+
+
 
 
 
@@ -92,6 +96,8 @@ Notes:
 
 
 
+
+
 ## Question: 4.png
 
 <img src="4.png" alt="Question" width="800">
@@ -106,6 +112,8 @@ Notes:
 - WAF helps with layer 7 attacks like SQL injection and Cross-Site Scripting. Shield is helpful for DDOS attacks.
 
 </details>
+
+
 
 
 
@@ -147,6 +155,8 @@ Notes:
 
 
 
+
+
 ## Question: 6.jpeg
 
 <img src="6.jpeg" alt="Question" width="800">
@@ -161,6 +171,8 @@ Notes:
 - 
 
 </details>
+
+
 
 
 
@@ -198,6 +210,8 @@ Notes:
 
 
 
+
+
 ## Question: 8.png
 
 <img src="8.png" alt="Question" width="800">
@@ -213,6 +227,8 @@ Notes:
 - 
 
 </details>
+
+
 
 
 
@@ -247,6 +263,8 @@ Notes:
 
 
 
+
+
 ## Question: 10.png
 
 <img src="10.png" alt="Question" width="800">
@@ -261,6 +279,8 @@ Notes:
 - 
 
 </details>
+
+
 
 
 
@@ -289,6 +309,8 @@ Notes:
 
 
 
+
+
 ## Question: 12.png
 
 <img src="12.png" alt="Question" width="800">
@@ -303,6 +325,8 @@ Notes:
 - IAM roles are not directly attached to IAM groups.
 
 </details>
+
+
 
 
 
@@ -326,6 +350,8 @@ Notes:
 
 
 
+
+
 ## Question: 14.png
 
 <img src="14.png" alt="Question" width="800">
@@ -343,6 +369,8 @@ Notes:
 
 
 
+
+
 ## Question: 15.jpeg
 
 <img src="15.jpeg" alt="Question" width="800">
@@ -355,6 +383,41 @@ Notes:
 Notes:
 
 - 
+
+</details>
+
+
+
+
+## Question: 16.jpeg
+
+<img src="16.jpeg" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Configure each development environment with its own Amazon Aurora On-Demand PostgreSQL Compatible database
+
+Notes:
+
+- 
+
+</details>
+
+
+
+## Question: 17.png
+
+<img src="17.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Send the requests from API Gateway REST API to an Amazon Simple Notification Service (Amazon SNS) topic. Subscribe Amazon Simple Queue Service (Amazon SQS) queues to the SNS topic. Configure the target Lambda functions to poll the different SQS queues.
+
+Notes:
+
+- SNS has message filtering
 
 </details>
 
