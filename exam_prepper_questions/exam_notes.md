@@ -33,6 +33,8 @@ Notes:
 
 
 
+
+
 ## Question: 2.png
 
 <img src="2.png" alt="Question" width="800">
@@ -47,6 +49,8 @@ Notes:
 - 
 
 </details>
+
+
 
 
 
@@ -98,6 +102,8 @@ Notes:
 
 
 
+
+
 ## Question: 4.png
 
 <img src="4.png" alt="Question" width="800">
@@ -112,6 +118,8 @@ Notes:
 - WAF helps with layer 7 attacks like SQL injection and Cross-Site Scripting. Shield is helpful for DDOS attacks.
 
 </details>
+
+
 
 
 
@@ -157,6 +165,8 @@ Notes:
 
 
 
+
+
 ## Question: 6.jpeg
 
 <img src="6.jpeg" alt="Question" width="800">
@@ -171,6 +181,8 @@ Notes:
 - 
 
 </details>
+
+
 
 
 
@@ -212,6 +224,8 @@ Notes:
 
 
 
+
+
 ## Question: 8.png
 
 <img src="8.png" alt="Question" width="800">
@@ -227,6 +241,8 @@ Notes:
 - 
 
 </details>
+
+
 
 
 
@@ -265,6 +281,8 @@ Notes:
 
 
 
+
+
 ## Question: 10.png
 
 <img src="10.png" alt="Question" width="800">
@@ -279,6 +297,8 @@ Notes:
 - 
 
 </details>
+
+
 
 
 
@@ -311,6 +331,8 @@ Notes:
 
 
 
+
+
 ## Question: 12.png
 
 <img src="12.png" alt="Question" width="800">
@@ -325,6 +347,8 @@ Notes:
 - IAM roles are not directly attached to IAM groups.
 
 </details>
+
+
 
 
 
@@ -352,6 +376,8 @@ Notes:
 
 
 
+
+
 ## Question: 14.png
 
 <img src="14.png" alt="Question" width="800">
@@ -366,6 +392,8 @@ Notes:
 - 
 
 </details>
+
+
 
 
 
@@ -389,6 +417,8 @@ Notes:
 
 
 
+
+
 ## Question: 16.jpeg
 
 <img src="16.jpeg" alt="Question" width="800">
@@ -406,6 +436,8 @@ Notes:
 
 
 
+
+
 ## Question: 17.png
 
 <img src="17.png" alt="Question" width="800">
@@ -418,6 +450,41 @@ Notes:
 Notes:
 
 - SNS has message filtering
+
+</details>
+
+
+
+
+## Question: 18.jpeg
+
+<img src="18.jpeg" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Enable Default Host Configuration Management in Systems Manager to manage the EC2 instances
+
+Notes:
+
+- 
+
+</details>
+
+
+
+## Question: 19.png
+
+<img src="19.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Create an On-Demand Capacity Reservation that specifies the Region and three Availability Zones needed
+
+Notes:
+
+- 
 
 </details>
 
