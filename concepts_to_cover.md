@@ -129,3 +129,18 @@ A fully managed graph database service, designed to store and query highly conne
 - Provide temporary AWS credentials for accessing AWS services
 - Maps users to IAM roles
 - Output: Provides temporary AWS credentials (Access Key ID, Secret Access Key, and Session Token)
+
+
+
+**Amazon Lambda Concurrency**
+
+*Reserved:* 
+- Sets an upper limit on the number of concurrent executions for a function.
+- Use case: Ensuring function does not scale beyond a certain point, often for cost control or to manage downstream resources
+
+*Provisioned:*
+- Initializes a requested number of execution environments so that they are prepared to respond immediately to function invocations, eliminating cold starts
+- Use case: Ensuring consistently low latency for function, especially for user-facing applications or high-volume event processing
+
+
+

@@ -35,6 +35,14 @@ Notes:
 
 
 
+
+
+
+
+
+
+
+
 ## Question: 2.png
 
 <img src="2.png" alt="Question" width="800">
@@ -49,6 +57,14 @@ Notes:
 - 
 
 </details>
+
+
+
+
+
+
+
+
 
 
 
@@ -104,6 +120,14 @@ Notes:
 
 
 
+
+
+
+
+
+
+
+
 ## Question: 4.png
 
 <img src="4.png" alt="Question" width="800">
@@ -118,6 +142,14 @@ Notes:
 - WAF helps with layer 7 attacks like SQL injection and Cross-Site Scripting. Shield is helpful for DDOS attacks.
 
 </details>
+
+
+
+
+
+
+
+
 
 
 
@@ -167,6 +199,14 @@ Notes:
 
 
 
+
+
+
+
+
+
+
+
 ## Question: 6.jpeg
 
 <img src="6.jpeg" alt="Question" width="800">
@@ -181,6 +221,14 @@ Notes:
 - 
 
 </details>
+
+
+
+
+
+
+
+
 
 
 
@@ -226,6 +274,14 @@ Notes:
 
 
 
+
+
+
+
+
+
+
+
 ## Question: 8.png
 
 <img src="8.png" alt="Question" width="800">
@@ -241,6 +297,14 @@ Notes:
 - 
 
 </details>
+
+
+
+
+
+
+
+
 
 
 
@@ -283,6 +347,14 @@ Notes:
 
 
 
+
+
+
+
+
+
+
+
 ## Question: 10.png
 
 <img src="10.png" alt="Question" width="800">
@@ -297,6 +369,14 @@ Notes:
 - 
 
 </details>
+
+
+
+
+
+
+
+
 
 
 
@@ -333,6 +413,14 @@ Notes:
 
 
 
+
+
+
+
+
+
+
+
 ## Question: 12.png
 
 <img src="12.png" alt="Question" width="800">
@@ -347,6 +435,14 @@ Notes:
 - IAM roles are not directly attached to IAM groups.
 
 </details>
+
+
+
+
+
+
+
+
 
 
 
@@ -378,6 +474,14 @@ Notes:
 
 
 
+
+
+
+
+
+
+
+
 ## Question: 14.png
 
 <img src="14.png" alt="Question" width="800">
@@ -392,6 +496,14 @@ Notes:
 - 
 
 </details>
+
+
+
+
+
+
+
+
 
 
 
@@ -419,6 +531,14 @@ Notes:
 
 
 
+
+
+
+
+
+
+
+
 ## Question: 16.jpeg
 
 <img src="16.jpeg" alt="Question" width="800">
@@ -433,6 +553,14 @@ Notes:
 - 
 
 </details>
+
+
+
+
+
+
+
+
 
 
 
@@ -456,6 +584,14 @@ Notes:
 
 
 
+
+
+
+
+
+
+
+
 ## Question: 18.jpeg
 
 <img src="18.jpeg" alt="Question" width="800">
@@ -473,6 +609,14 @@ Notes:
 
 
 
+
+
+
+
+
+
+
+
 ## Question: 19.png
 
 <img src="19.png" alt="Question" width="800">
@@ -485,6 +629,175 @@ Notes:
 Notes:
 
 - 
+
+</details>
+
+
+
+
+
+
+
+
+
+
+## Question: 20.png
+
+<img src="20.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Search CloudTrail logs with Amazon Athena queries to identify the errors
+
+Notes:
+
+- 
+
+</details>
+
+
+
+
+
+
+
+
+
+## Question: 21.png
+
+<img src="21.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Publish VPC fow logs to Amazon CloudWatch Logs. Create required metric filters. Create an Amazon CloudWatch metric alarm with a notification action for when the alarm is in the ALARM state
+
+Notes:
+
+- 
+
+</details>
+
+
+
+
+
+
+
+
+## Question: 22.png
+
+<img src="22.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Use Amazon RDS deployed in a Multi-AZ instance deployment to create an Amazon Aurora database. Direct the reporting functions to the reader instances
+
+Notes:
+
+- Multi-AZ DB clusters aren't available with the following engines:
+    - RDS for MariaDB
+    - RDS for Oracle
+    - RDS for SQL Server
+
+</details>
+
+
+
+
+
+
+
+## Question: 23.jpeg
+
+<img src="23.jpeg" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Create a backup plan by using AWS Backup to perform nightly backups. Copy the backups to another Region. Add the application's EC2 instances as resources
+
+Notes:
+
+- By adding the EC2 instances as resources, it ensures that both the instance configuration and all attached EBS volumes are included in the backup
+
+</details>
+
+
+
+
+
+
+## Question: 24.png
+
+<img src="24.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Remove the two NAT instances and replace them with two NAT gateways in different Availability Zones
+
+Notes:
+
+- **NAT gateways are AWS managed**, and automatically scale to accommodate increases in network traffic without manual intervention
+
+- NAT instances require manual management and updates
+
+</details>
+
+
+
+
+
+## Question: 25.png
+
+<img src="25.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Encrypt a copy of the latest DB snapshot. Replace exiting DB instance by restoring the encrypted snapshot
+
+Notes:
+
+- 
+
+</details>
+
+
+
+
+## Question: 26.png
+
+<img src="26.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Use Amazon Cognito for authentication. Use Lambda@Edge for authorization. Use Amazon CloudFront to serve the web application globally.
+
+Notes:
+
+- 
+
+</details>
+
+
+
+## Question: 27.png
+
+<img src="27.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Configure provisioned concurrency for the Lambda functions. Increase the memory according to AWS Compute Optimizer recommendations
+
+Notes:
+
+- **Provisioned concurrency keeps functions initialized** and ready to respond immediately, which helps maintain low latency for customers during high-concurrency events. **It eliminates cold starts** and ensures consistent performance
 
 </details>
 
