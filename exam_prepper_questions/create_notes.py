@@ -29,7 +29,7 @@ def create_markdown_with_screenshots(folder_path, img_width=800):
     image_files.sort(key=natural_sort_key)
     
     # Create or update the markdown content
-    updated_content = "# Exam Topic Questions\n\n"
+    updated_content = "# Exam Prepper Questions\n\n"
     for image_file in image_files:
         file_name = os.path.basename(image_file)
         if file_name in existing_images:

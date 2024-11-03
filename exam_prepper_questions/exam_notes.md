@@ -1,4 +1,4 @@
-# Exam Topic Questions
+# Exam Prepper Questions
 
 ## Question: 1.png
 
@@ -43,6 +43,28 @@ Notes:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 2.png
 
 <img src="2.png" alt="Question" width="800">
@@ -57,6 +79,28 @@ Notes:
 - 
 
 </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -128,6 +172,28 @@ Notes:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 4.png
 
 <img src="4.png" alt="Question" width="800">
@@ -142,6 +208,28 @@ Notes:
 - WAF helps with layer 7 attacks like SQL injection and Cross-Site Scripting. Shield is helpful for DDOS attacks.
 
 </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -207,6 +295,28 @@ Notes:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 6.jpeg
 
 <img src="6.jpeg" alt="Question" width="800">
@@ -221,6 +331,28 @@ Notes:
 - 
 
 </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -282,6 +414,28 @@ Notes:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 8.png
 
 <img src="8.png" alt="Question" width="800">
@@ -297,6 +451,28 @@ Notes:
 - 
 
 </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -355,6 +531,28 @@ Notes:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 10.png
 
 <img src="10.png" alt="Question" width="800">
@@ -369,6 +567,28 @@ Notes:
 - 
 
 </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -421,6 +641,28 @@ Notes:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 12.png
 
 <img src="12.png" alt="Question" width="800">
@@ -435,6 +677,28 @@ Notes:
 - IAM roles are not directly attached to IAM groups.
 
 </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -482,6 +746,28 @@ Notes:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 14.png
 
 <img src="14.png" alt="Question" width="800">
@@ -496,6 +782,28 @@ Notes:
 - 
 
 </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -539,6 +847,28 @@ Notes:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 16.jpeg
 
 <img src="16.jpeg" alt="Question" width="800">
@@ -553,6 +883,28 @@ Notes:
 - 
 
 </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -592,6 +944,28 @@ Notes:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 18.jpeg
 
 <img src="18.jpeg" alt="Question" width="800">
@@ -606,6 +980,28 @@ Notes:
 - 
 
 </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -641,6 +1037,28 @@ Notes:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 20.png
 
 <img src="20.png" alt="Question" width="800">
@@ -664,6 +1082,28 @@ Notes:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 21.png
 
 <img src="21.png" alt="Question" width="800">
@@ -678,6 +1118,28 @@ Notes:
 - 
 
 </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -710,6 +1172,28 @@ Notes:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 23.jpeg
 
 <img src="23.jpeg" alt="Question" width="800">
@@ -724,6 +1208,28 @@ Notes:
 - By adding the EC2 instances as resources, it ensures that both the instance configuration and all attached EBS volumes are included in the backup
 
 </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -751,6 +1257,28 @@ Notes:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 25.png
 
 <img src="25.png" alt="Question" width="800">
@@ -765,6 +1293,28 @@ Notes:
 - 
 
 </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -786,6 +1336,28 @@ Notes:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Question: 27.png
 
 <img src="27.png" alt="Question" width="800">
@@ -798,6 +1370,545 @@ Notes:
 Notes:
 
 - **Provisioned concurrency keeps functions initialized** and ready to respond immediately, which helps maintain low latency for customers during high-concurrency events. **It eliminates cold starts** and ensures consistent performance
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Question: 28.png
+
+<img src="28.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Use Amazon Compute Optimizer to generate EBS volume recommendations for optimization
+
+Notes:
+
+- 
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Question: 29.png
+
+<img src="29.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Store the images in Amazon S3 buckets. Use Amazon DynamoDB with the geographic code as the key and the image S3 URL as the value
+
+Notes:
+
+- 
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Question: 30.jpeg
+
+<img src="30.jpeg" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Order multiple AWS Snowball devices that have Tape Gateway. Copy the physical tapes to virtual tapes in Snowball. Ship the Snowball devices to AWS. Create a lifecycle policy to move the tapes to Amazon S3 Glacier Deep Archive
+
+Notes:
+
+- 
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Question: 31.jpeg
+
+<img src="31.jpeg" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Use server-side encryption with customer managed AWS KMS keys
+
+Notes:
+
+- 
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Question: 32.png
+
+<img src="32.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- 2,4,6
+
+Notes:
+
+- ALB >>HTTPS>> WEB tier >>HTTPS>> Application >>SQL traffic>> SQL DB
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Question: 33.jpeg
+
+<img src="33.jpeg" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Create an Auto Scaling group that has a minimum of one and a maximum of one. Create an Amazon Machine Image (AMI) of each application instance. Use the AMI to create EC2 instances in the Auto Scaling group Configure an Application Load Balancer in front of the Auto Scaling group.
+
+Notes:
+
+- 
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Question: 34.png
+
+<img src="34.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Use AWS Systems Manager Run Command to run a custom command that applies the patch to all EC2 instances
+
+Notes:
+
+- 
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Question: 35.png
+
+<img src="35.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Create interface endpoints for Amazon S3. Use the interface endpoints to securely access the data from the Region and on-premises location
+
+Notes:
+
+- 
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Question: 36.jpeg
+
+<img src="36.jpeg" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Retain the latest Amazon Machine Images (AMIs) of the web and application tiers. Enable automated backups in Amazon RDS and use point-in-time recover to meet the RPO
+
+Notes:
+
+- If there is no temporary local storage on the EC2 instances, then snapshots of EBS volumes are not necessary. Therefore, if your application does not require temporary storage on EC2 instances, using AMIs to back up the web and application tiers is sufficient to restore the system after a failure.
+
+- Snapshots of EBS volumes would be necessary if you want to back up the entire EC2 instance, including any applications and temporary data stored on the EBS volumes attached to the instances. When you take a snapshot of an EBS volume, it backs up the entire contents of that volume. This ensures that you can restore the entire EC2 instance to a specific point in time more quickly.
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Question: 37.png
+
+<img src="37.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Enable detailed monitoring on all EC2 instances. Use Amazon CloudWatch metrics to perform further analysis.
+
+Notes:
+
+- Enabling detailed monitoring on EC2 instances provides metrics at a 1-minute granularity, which is well within the required 2-minute granularity for performance analysis.
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+## Question: 38.jpeg
+
+<img src="38.jpeg" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Host the visualization tool in the same AWS Region as the data warehouse and access it over a Direct Connect connection at a location in the same Region.
+
+Notes:
+
+- 
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+## Question: 39.png
+
+<img src="39.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Configure an ECS capacity provider with Fargate for steady state and Fargate Spot for burst traffic
+
+Notes:
+
+- 
+
+</details>
+
+
+
+
+
+
+
+
+
+
+## Question: 40.png
+
+<img src="40.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Create an Aurora read replica of the RDS for PostgreSQL DB instance. Promote the Aurora read replicate to a new Aurora PostgreSQL DB cluster
+
+Notes:
+
+- 
+
+</details>
+
+
+
+
+
+
+
+
+
+## Question: 41.png
+
+<img src="41.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Update the Amazon Cognito identity pool to assume the proper IAM role for access to the protected content
+
+Notes:
+
+- 
+
+</details>
+
+
+
+
+
+
+
+
+## Question: 42.png
+
+<img src="42.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Create dedicated S3 access points and access point policies for each application
+
+Notes:
+
+- S3 Access Points: These provide a way to manage access to shared data sets in Amazon S3. Each access point has a unique hostname and a policy that is specific to the use case, **allowing for granular control over access to data.**
+
+</details>
+
+
+
+
+
+
+
+## Question: 43.png
+
+<img src="43.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Create a new AWS Key Management Service (AWS KMX) customer managed key to encrypt both the S3 bucket and the RDS for MySQL database. Ensure that the KMS key policy includes encrypot and decrypt permissions for the ECS task execution role.
+
+Notes:
+
+- 
+
+</details>
+
+
+
+
+
+
+## Question: 44.png
+
+<img src="44.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Create a presigned URL for the template object. Configure the CloudFormation stack to use the presigned URL
+
+Notes:
+
+- 
+
+</details>
+
+
+
+
+
+## Question: 45.jpeg
+
+<img src="45.jpeg" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Configure S3 Cross-Region Replication from the company's S3 bucket to one of the marketing firm's S3 Buckets
+
+Notes:
+
+- 
+
+</details>
+
+
+
+
+## Question: 46.jpeg
+
+<img src="46.jpeg" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Use Amazon API Gateway and direct transactions to the AWS Lambda functions as the application layer. Use Amazon Simple Queue Service (Amazon SQS) as the communication layer between the application services
+
+Notes:
+
+- 
+
+</details>
+
+
+
+## Question: 47.png
+
+<img src="47.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Allow the Lambda execution role in the AWS KMS key policy
+- Add AWS KMS permissions in the Lambda execution role
+
+Notes:
+
+- 
 
 </details>
 
