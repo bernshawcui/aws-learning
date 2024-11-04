@@ -65,6 +65,9 @@ Notes:
 
 
 
+
+
+
 ## Question: 2.png
 
 <img src="2.png" alt="Question" width="800">
@@ -79,6 +82,9 @@ Notes:
 - 
 
 </details>
+
+
+
 
 
 
@@ -194,6 +200,9 @@ Notes:
 
 
 
+
+
+
 ## Question: 4.png
 
 <img src="4.png" alt="Question" width="800">
@@ -208,6 +217,9 @@ Notes:
 - WAF helps with layer 7 attacks like SQL injection and Cross-Site Scripting. Shield is helpful for DDOS attacks.
 
 </details>
+
+
+
 
 
 
@@ -317,6 +329,9 @@ Notes:
 
 
 
+
+
+
 ## Question: 6.jpeg
 
 <img src="6.jpeg" alt="Question" width="800">
@@ -331,6 +346,9 @@ Notes:
 - 
 
 </details>
+
+
+
 
 
 
@@ -436,6 +454,9 @@ Notes:
 
 
 
+
+
+
 ## Question: 8.png
 
 <img src="8.png" alt="Question" width="800">
@@ -451,6 +472,9 @@ Notes:
 - 
 
 </details>
+
+
+
 
 
 
@@ -553,6 +577,9 @@ Notes:
 
 
 
+
+
+
 ## Question: 10.png
 
 <img src="10.png" alt="Question" width="800">
@@ -567,6 +594,9 @@ Notes:
 - 
 
 </details>
+
+
+
 
 
 
@@ -663,6 +693,9 @@ Notes:
 
 
 
+
+
+
 ## Question: 12.png
 
 <img src="12.png" alt="Question" width="800">
@@ -677,6 +710,9 @@ Notes:
 - IAM roles are not directly attached to IAM groups.
 
 </details>
+
+
+
 
 
 
@@ -768,6 +804,9 @@ Notes:
 
 
 
+
+
+
 ## Question: 14.png
 
 <img src="14.png" alt="Question" width="800">
@@ -782,6 +821,9 @@ Notes:
 - 
 
 </details>
+
+
+
 
 
 
@@ -869,6 +911,9 @@ Notes:
 
 
 
+
+
+
 ## Question: 16.jpeg
 
 <img src="16.jpeg" alt="Question" width="800">
@@ -883,6 +928,9 @@ Notes:
 - 
 
 </details>
+
+
+
 
 
 
@@ -966,6 +1014,9 @@ Notes:
 
 
 
+
+
+
 ## Question: 18.jpeg
 
 <img src="18.jpeg" alt="Question" width="800">
@@ -980,6 +1031,9 @@ Notes:
 - 
 
 </details>
+
+
+
 
 
 
@@ -1059,6 +1113,9 @@ Notes:
 
 
 
+
+
+
 ## Question: 20.png
 
 <img src="20.png" alt="Question" width="800">
@@ -1104,6 +1161,9 @@ Notes:
 
 
 
+
+
+
 ## Question: 21.png
 
 <img src="21.png" alt="Question" width="800">
@@ -1118,6 +1178,9 @@ Notes:
 - 
 
 </details>
+
+
+
 
 
 
@@ -1194,6 +1257,9 @@ Notes:
 
 
 
+
+
+
 ## Question: 23.jpeg
 
 <img src="23.jpeg" alt="Question" width="800">
@@ -1208,6 +1274,9 @@ Notes:
 - By adding the EC2 instances as resources, it ensures that both the instance configuration and all attached EBS volumes are included in the backup
 
 </details>
+
+
+
 
 
 
@@ -1279,6 +1348,9 @@ Notes:
 
 
 
+
+
+
 ## Question: 25.png
 
 <img src="25.png" alt="Question" width="800">
@@ -1293,6 +1365,9 @@ Notes:
 - 
 
 </details>
+
+
+
 
 
 
@@ -1358,6 +1433,9 @@ Notes:
 
 
 
+
+
+
 ## Question: 27.png
 
 <img src="27.png" alt="Question" width="800">
@@ -1372,6 +1450,9 @@ Notes:
 - **Provisioned concurrency keeps functions initialized** and ready to respond immediately, which helps maintain low latency for customers during high-concurrency events. **It eliminates cold starts** and ensures consistent performance
 
 </details>
+
+
+
 
 
 
@@ -1433,6 +1514,9 @@ Notes:
 
 
 
+
+
+
 ## Question: 29.png
 
 <img src="29.png" alt="Question" width="800">
@@ -1447,6 +1531,9 @@ Notes:
 - 
 
 </details>
+
+
+
 
 
 
@@ -1502,6 +1589,9 @@ Notes:
 
 
 
+
+
+
 ## Question: 31.jpeg
 
 <img src="31.jpeg" alt="Question" width="800">
@@ -1516,6 +1606,9 @@ Notes:
 - 
 
 </details>
+
+
+
 
 
 
@@ -1565,6 +1658,9 @@ Notes:
 
 
 
+
+
+
 ## Question: 33.jpeg
 
 <img src="33.jpeg" alt="Question" width="800">
@@ -1579,6 +1675,9 @@ Notes:
 - 
 
 </details>
+
+
+
 
 
 
@@ -1624,6 +1723,9 @@ Notes:
 
 
 
+
+
+
 ## Question: 35.png
 
 <img src="35.png" alt="Question" width="800">
@@ -1638,6 +1740,9 @@ Notes:
 - 
 
 </details>
+
+
+
 
 
 
@@ -1681,6 +1786,9 @@ Notes:
 
 
 
+
+
+
 ## Question: 37.png
 
 <img src="37.png" alt="Question" width="800">
@@ -1695,6 +1803,9 @@ Notes:
 - Enabling detailed monitoring on EC2 instances provides metrics at a 1-minute granularity, which is well within the required 2-minute granularity for performance analysis.
 
 </details>
+
+
+
 
 
 
@@ -1732,6 +1843,9 @@ Notes:
 
 
 
+
+
+
 ## Question: 39.png
 
 <img src="39.png" alt="Question" width="800">
@@ -1746,6 +1860,9 @@ Notes:
 - 
 
 </details>
+
+
+
 
 
 
@@ -1779,6 +1896,9 @@ Notes:
 
 
 
+
+
+
 ## Question: 41.png
 
 <img src="41.png" alt="Question" width="800">
@@ -1793,6 +1913,9 @@ Notes:
 - 
 
 </details>
+
+
+
 
 
 
@@ -1822,6 +1945,9 @@ Notes:
 
 
 
+
+
+
 ## Question: 43.png
 
 <img src="43.png" alt="Question" width="800">
@@ -1836,6 +1962,9 @@ Notes:
 - 
 
 </details>
+
+
+
 
 
 
@@ -1861,6 +1990,9 @@ Notes:
 
 
 
+
+
+
 ## Question: 45.jpeg
 
 <img src="45.jpeg" alt="Question" width="800">
@@ -1875,6 +2007,9 @@ Notes:
 - 
 
 </details>
+
+
+
 
 
 
@@ -1896,6 +2031,9 @@ Notes:
 
 
 
+
+
+
 ## Question: 47.png
 
 <img src="47.png" alt="Question" width="800">
@@ -1911,4 +2049,43 @@ Notes:
 - 
 
 </details>
+
+
+
+
+
+## Question: 48.png
+
+<img src="48.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Share the dashboard from the CloudWatch console. Enter the product manager's email address, and complete the sharing steps. Provide a sharable link for the dashboard to the product manager
+
+Notes:
+
+- CloudWatch allows you to share a dashboard using a shareable URL that can be accessed without requiring AWS credentials
+
+</details>
+
+
+
+
+## Question: 49.png
+
+<img src="49.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Upload and store content in Amazon S3. Use S3 Transfer Acceleration for the uploads
+
+Notes:
+
+- 
+
+</details>
+
+
 
