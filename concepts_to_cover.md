@@ -43,6 +43,8 @@ Easily deploy, scale and manage <ins>third-party virtual appliances.</ins> One g
 
 Amazon RDS database engine ideal for <ins>high-traffic web applications, real-time analytics and applications demanding high throughput and resilience.</ins>
 
+- Aurora cloning
+
 
 **Amazon Elastic Block Store:**
 
@@ -144,3 +146,33 @@ A fully managed graph database service, designed to store and query highly conne
 
 
 
+**Amazon Outpost**
+
+
+
+**Amazon Control Tower**
+
+
+
+**Misc**
+
+- <font color="red">**NAT gateways are availability zone specific, and must be created in public subnets**</font>
+- S3 event notifications: only to SNS, SQS and Lambda
+- <font color="red">**Composite alarms in CloudWatch combines**</font> multiple metrics into a single alarm
+- S3 Object Lock Governance/Compliance mode
+- Maximum retention period for <font color="red">**automated backups configured directly in Amazon Aurora is 35 days**</font>
+- <font color="red">**Amazon Cloudfront field level encryption**</font> protects specific data throughout system processing so that only certain applications can see it
+- <font color="red">**AWS Transfer Family natively supports SFTP**</font>
+- <font color="red">**AWS Elastic Beanstalk**</font> allows creation of multiple environments (eg production, staging, development). The URL swapping feature enables easy switching between the environments
+- <font color="red">**Amazon Pinpoint**</font> is designed for customer engagement and supports sending SMS messages at scale
+- <font color="red">**IAM roles for cross-account access**</font>, which is a standard and secure method for allowing access between AWS accounts.
+- <font color="red">**AWS Database Migration Service (AWS DMS)**</font> to keep the source and target databases in sync during migration.
+- <font color="red">**AWS Schema Conversion Tool (SCT)**</font> to convert the schema from Oracle to PostgreSQL
+- <font color="red">**Kinesis Data Streams default data retention period is 24 hours**</font>
+- <font color="red">**An egress-only internet gateway is for use with IPv6 traffic only.**</font> To enable outbound-only internet communication over IPv4, use a NAT gateway instead.
+- <font color="red">**API Gateway canary release development**</font> allows incremental rollout of the new API version to a percentage of traffic.
+- <font color="red">**Lambda SnapStart**</font> is specifically designed to reduce cold start times for Java functions
+
+- <font color="red">**Instance Scheduler**</font> on AWS solution automates the starting and stopping of Amazon Elastic Compute Cloud (Amazon EC2) and Amazon Relational Database Service (Amazon RDS) instances.
+
+- <font color="red">**Amazon FSx for Lustre**</font> is specifically designed for <font color="red">**high-performance workloads like HPC**</font>. It provides extremely low latency and high throughput, which aligns with the requirement for access latency within 1 ms.

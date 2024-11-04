@@ -818,6 +818,8 @@ Notes:
 
 Notes:
 
+- The scheduled scaling policy, while close, doesn't leverage the predictive capabilities that can better handle varying transaction loads.
+
 - 
 
 </details>
@@ -868,7 +870,7 @@ Notes:
 <details>
 <summary>Click to reveal the correct answer</summary>
 
-- Create an Amazon S3 File Gateway.Update the business system to use a new network share from the S3 File Gateway
+- Create an Amazon S3 File Gateway. Update the business system to use a new network share from the S3 File Gateway
 
 Notes:
 
@@ -1955,7 +1957,7 @@ Notes:
 <details>
 <summary>Click to reveal the correct answer</summary>
 
-- Create a new AWS Key Management Service (AWS KMX) customer managed key to encrypt both the S3 bucket and the RDS for MySQL database. Ensure that the KMS key policy includes encrypot and decrypt permissions for the ECS task execution role.
+- Create a new AWS Key Management Service (AWS KMS) customer managed key to encrypt both the S3 bucket and the RDS for MySQL database. Ensure that the KMS key policy includes encrypot and decrypt permissions for the ECS task execution role.
 
 Notes:
 
