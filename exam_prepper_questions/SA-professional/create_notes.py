@@ -54,5 +54,5 @@ def create_markdown_with_screenshots(folder_path, img_width=800):
         f.write(updated_content)
 
 # Use the current directory as the folder path
-folder_path = 'exam_prepper_questions'
+folder_path = 'exam_prepper_questions/SA-professional'
 create_markdown_with_screenshots(folder_path)
