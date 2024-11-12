@@ -21,6 +21,11 @@ Notes:
 
 
 
+
+
+
+
+
 ## Question: 2.png
 
 <img src="2.png" alt="Question" width="800">
@@ -35,6 +40,11 @@ Notes:
 - 
 
 </details>
+
+
+
+
+
 
 
 
@@ -60,6 +70,11 @@ Notes:
 
 
 
+
+
+
+
+
 ## Question: 4.png
 
 <img src="4.png" alt="Question" width="800">
@@ -79,6 +94,11 @@ Notes:
 
 
 
+
+
+
+
+
 ## Question: 5.png
 
 <img src="5.png" alt="Question" width="800">
@@ -92,6 +112,103 @@ Notes:
 
 - AWS Application Discovery Service helps gather information about on-premises data centers to plan migrations to AWS.
 - Helps understand existing infrastructure, identifies dependencies between applications and estimate AWS costs
+
+</details>
+
+
+
+
+
+
+
+## Question: 6.png
+
+<img src="6.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Deploy a Lambda@Edge function to sort parameters by name and force them to be lowercase. Select the CloudFront viewer request trigger to invoke the function
+
+Notes:
+
+- Amazon CloudFront considers **the case of parameter names and values when caching based on query string parameters**, thus inconsistent query strings may cause CloudFront to forward mixed-cased/misordered requests to the origin.
+
+</details>
+
+
+
+
+
+
+## Question: 7.png
+
+<img src="7.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Create an Amazon RDS DB instance to host the product data. Configure a read replica for the DB instance in another Region. Create an Amazon DynamoDB global table to host the user session data
+
+Notes:
+
+- 
+
+</details>
+
+
+
+
+
+## Question: 8.png
+
+<img src="8.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Create one VPC peering connection for each VPC in us-east-2 to the VPC in eu-west-1. Create the necessary route entries in each VPC so that the traffic is routed through the VPC peering connection
+
+Notes:
+
+- 
+
+</details>
+
+
+
+
+## Question: 9.png
+
+<img src="9.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Create an Amazon EventBridge (Amazon CloudWatch Events) rule. Define a pattern with the detail-type value set to AWS API Call via CloudTrail and an eventName of CreateUser.
+- Invoke an AWS Step Functions state machine to remove access
+- Use Amazon Simple Notifcation Service (Amazon SNS) to notify the security team
+
+Notes:
+
+- 
+
+</details>
+
+
+
+## Question: 10.png
+
+<img src="10.png" alt="Question" width="800">
+
+<details>
+<summary>Click to reveal the correct answer</summary>
+
+- Update ALB Security group ingress to allow access only from the com.amazonaws.global.cloudfront.origin-facing CloudFront managed prefix list
+
+Notes:
+
+- 
 
 </details>
 
