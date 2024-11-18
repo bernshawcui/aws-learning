@@ -1,15 +1,3 @@
-- Q214
-- Q217
-- Q218
-- Q219
-- Q222
-- Q224
-- Q230
-- Q232
-- Q233
-- Q235
-
-
 ### Q308
 A company has multiple AWS accounts that use consolidated billing. The company runs several active high performance Amazon RDS for Oracle On-Demand DB instances for 90 days. The company’s finance team has access to AWS Trusted Advisor in the consolidated billing account and all other AWS accounts.
 
@@ -654,7 +642,7 @@ D. Deploy the web tier and the application tier to a second Region. Use an Amazo
 </details>
 
 
-###c 535
+### 535
 A company is building an Amazon Elastic Kubernetes Service (Amazon EKS) cluster for its workloads. All secrets that are stored in Amazon EKS must be encrypted in the Kubernetes etcd key-value store.
 
 Which solution will meet these requirements?
@@ -1066,7 +1054,7 @@ E. Create an OU for the required accounts. Attach the SCP to the OU. Move the no
 </details>
 
 
-### 719
+### 712
 A company is designing a web application on AWS. The application will use a VPN connection between the company’s existing data centers and the company's VPCs.
 
 The company uses Amazon Route 53 as its DNS service. The application must use private DNS records to communicate with the on-premises services from a VPC.
@@ -1488,7 +1476,7 @@ D. Create an S3 Lifecycle policy to move the files to S3 Standard-Infrequent Acc
   Answer: A
 </details>
 
-### 890
+### 892
 A company is migrating a data center from its on-premises location to AWS. The company has several legacy applications that are hosted on individual virtual servers. Changes to the application designs cannot be made.
 
 Each individual virtual server currently runs as its own EC2 instance. A solutions architect needs to ensure that the applications are reliable and fault tolerant after migration to AWS. The applications will run on Amazon EC2 instances.
@@ -1534,7 +1522,7 @@ D. Create a new Aurora cluster in us-west-1. Use AWS Database Migration Service 
 
 <details>
   <summary>Click to show the answer</summary>
-  Answer: C
+  Answer: B
 </details>
 
 
